@@ -1,0 +1,1 @@
+{\n  "name": "robotinic",\n  "version": "1.0.0",\n  "scripts": {\n    "start": "http-server ."\n  },\n  "dependencies": {\n    "http-server": "^0.12.3"\n  }\n}
