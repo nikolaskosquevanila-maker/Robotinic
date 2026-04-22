@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotinic - Concessionária de Motos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Botão Flutuante -->
+    <button id="chatbot-toggle" class="chatbot-btn" title="Chat com Robotinic">
+        💬
+    </button>
+
+    <!-- Container do Chat -->
+    <div id="chatbot-container" class="chatbot-hidden">
+        <div class="chatbot-header">
+            <h2>Robotinic 🏍️</h2>
+            <button id="chatbot-close" class="close-btn">✕</button>
+        </div>
+        <div id="chatbot-messages" class="chatbot-messages"></div>
+        <div class="chatbot-input-area">
+            <input 
+                id="chatbot-input" 
+                type="text" 
+                placeholder="Digite sua mensagem..."
+                autocomplete="off"
+            >
+            <button id="chatbot-send" class="send-btn">📤</button>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+</html>
